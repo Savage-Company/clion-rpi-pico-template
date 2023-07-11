@@ -37,7 +37,7 @@ int main() {
     add_repeating_timer_ms(500, &alive, NULL, &alive_timer);
 
     while (1) {
-        loop()
+        loop();
     }
 
     return 0;
